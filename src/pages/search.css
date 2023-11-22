@@ -1,0 +1,35 @@
+/* search.css */
+
+.search-container {
+    text-align: center; /* Center-align the inline contents */
+  }
+  
+  form {
+    display: inline-block; /* Align the form in the center as inline block */
+    margin: 0 auto; /* Auto margins for horizontal centering */
+  }
+  
+  input[type="text"],
+  button {
+    padding: 10px; /* Add some padding for aesthetics */
+    margin: 5px; /* Add a small margin around the elements */
+    border: 1px solid #ccc; /* Add a border for definition */
+    vertical-align: middle; /* Align the input and button vertically */
+  }
+  
+  input[type="text"] {
+    margin-right: 0; /* Remove margin between the input and the button */
+  }
+  
+  button {
+    background-color: #f90; /* Example button color */
+    border: none; /* Remove default border for button */
+    cursor: pointer; /* Change cursor to indicate clickable item */
+    color: white; /* Change text color to white */
+    border-radius: 5px; /* Round the corners of the button */
+  }
+  
+  button:hover {
+    background-color: #e80; /* Darken button color on hover */
+  }
+  
