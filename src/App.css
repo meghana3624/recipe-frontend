@@ -1,15 +1,17 @@
 .cover-container {
-  color:#ffffff;
- }
-.logo{
+  color: #ffffff;
+}
+
+.logo {
   display: flex;
   justify-content: center;
-  margin:4px;
+  margin: 4px;
   padding: 4px;
   color: rgb(220, 137, 74);
   position: relative;
   top: -41px
 }
+
 .container h1 {
   display: flex;
   justify-content: center;
@@ -18,21 +20,24 @@
   color: rgb(220, 137, 74);
 }
 
-h3{
+h3 {
   width: max-content;
   font-size: x-large;
   color: rgb(220, 137, 74);
 }
-.content{
+
+.content {
   margin: 5px;
   padding: 10px;
   color: rgb(220, 137, 74);
 }
-.content p{
+
+.content p {
   text-align: center;
   font-size: 20px;
 }
-.cont{
+
+.cont {
   width: 1100px;
   color: rgb(220, 137, 74);
 }
@@ -42,13 +47,14 @@ h3{
   font-size: large;
   font-weight: 800;
 }
+
 .main-content {
   text-align: center;
-  font-size:large;
+  font-size: large;
   color: rgb(220, 137, 74);
 }
 
-.mt-auto{
+.mt-auto {
   display: flex;
   flex-direction: row;
 }
@@ -65,18 +71,19 @@ h3{
   background-image: url('https://wallpapers.com/images/hd/food-4k-jx0j7rqea6yv9phh.jpg');
   /* background-image: url('https://images3.alphacoders.com/159/159239.jpg'); */
   background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
- .container{
+
+.container {
   margin-top: 70px;
   height: max-content;
   width: max-content;
- }
+}
 
 /* body {
   margin: 0;
@@ -106,7 +113,7 @@ h3{
   margin: 29px;
 }
 
-.auth-container h2{
+.auth-container h2 {
   position: relative;
   top: -10px;
   right: -10px;
@@ -132,7 +139,7 @@ input {
 .navbar {
   margin: 0px;
   width: 100%;
-  border-radius : 3px;
+  border-radius: 3px;
   height: 70px;
   background-color: rgb(0, 0, 0);
   display: flex;
@@ -142,82 +149,83 @@ input {
   text-decoration: none;
 }
 
-.navbar li{
+.navbar li {
   border-radius: 30px;
-  list-style-type : none;
+  list-style-type: none;
   margin-right: 6px;
-  float   : left;
-  cursor  : pointer;
-  padding : 3px 10px;
+  float: left;
+  cursor: pointer;
+  padding: 3px 10px;
   /* border-top    : 2px solid rgba(200,200,255,0.5);
   border-bottom : 2px solid rgba(50,50,50,0.4); */
 }
 
-.navbar:after , .navbar:before {
-  display : block;
-  content : ' ';
+.navbar:after,
+.navbar:before {
+  display: block;
+  content: ' ';
 }
 
 .navbar:after {
-  clear : both;
+  clear: both;
 }
 
 .container li {
-  list-style-type : none;
+  list-style-type: none;
   /* background      : linear-gradient(rgba(0, 0, 0, 0.4) 85%, rgba(2, 60, 17, 0.5) 100%); */
   background-color: black;
   box-shadow: 0 4px 8px 0 rgb(220, 137, 74), 0 6px 20px 0 rgba(202, 13, 13, 0.19);
-  float   : left;
-  cursor  : pointer;
-  padding : 3px 10px;
+  float: left;
+  cursor: pointer;
+  padding: 3px 10px;
   /* border-top    : 2px solid rgba(200,200,255,0.5);
   border-bottom : 2px solid rgba(50,50,50,0.4); */
 }
 
 li:first-child {
-  border-radius : 5px 0 0 5px;
-  
+  border-radius: 5px 0 0 5px;
+
 }
 
 li:last-child {
-  border-radius : 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
 }
 
 a {
-  display : block;
-  padding : 9px 75px;
-  font-size : 21px;
-  text-decoration : none;
-  border-radius   : 5px;
-  position        : relative;
-  top   : 0;
-  color : rgb(220, 137, 74);     
-  transition : all .4s;
+  display: block;
+  padding: 9px 75px;
+  font-size: 21px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  top: 0;
+  color: rgb(220, 137, 74);
+  transition: all .4s;
 }
 
 li:hover a {
-  color : rgb(14, 62, 3);
+  color: rgb(14, 62, 3);
   background-color: rgb(220, 137, 74);
-  box-shadow : 0 0 5px 0 rgba(255, 255, 255, 0.7);
-  transition : all .4s;
+  box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.7);
+  transition: all .4s;
   border-radius: 30px;
 }
 
 li a:after {
-  display  : block;
-  content  : '';
-  position : absolute;
-  top  : 100%;
-  left : 42%;
-  border-style : solid;
-  border-color : transparent;
-  border-width : 5px 5px 0 5px;
-  transition   : all .4s;
+  display: block;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 42%;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 5px 5px 0 5px;
+  transition: all .4s;
 }
 
 li:hover a:after {
-  border-color : white transparent transparent transparent;
-  transition   : all .4s;
+  border-color: white transparent transparent transparent;
+  transition: all .4s;
 }
 
 
@@ -228,39 +236,45 @@ li:hover a:after {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: rgb(0 0 0 / 35%);;
+  background-color: rgb(0 0 0 / 35%);
+  ;
   border-radius: 32px;
   box-shadow: 0 0 5px rgb(220, 137, 74);
   margin: 81px;
   width: 400px;
   color: white;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
 }
+
 .create-recipe form {
   display: flex;
   flex-direction: column;
 }
-.container h1{
+
+.container h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 900;
-  font-family:-apple-system,system-ui,Roboto,sans-serif;
+  font-family: -apple-system, system-ui, Roboto, sans-serif;
   position: relative;
   top: -10px;
 }
+
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.container ul{
+
+.container ul {
   list-style: none;
   padding: 0;
   margin: 0;
   margin-left: 48px;
 }
-.container li{
+
+.container li {
   /* width: 300px;
   height: 479px;
   padding: 20px;
@@ -280,17 +294,18 @@ ul {
   border-radius: 46px;
   position: relative;
   top: -144px;
-  /* box-shadow: 8px 14px 38px rgba(217, 223, 230, 0.06), 1px 3px 8px rgba(99, 161, 223, 0.03);
-  transition: all .5s ease; back to normal */
+   box-shadow: 8px 14px 38px rgb(220, 137, 74) , 1px 3px 8px  rgb(220, 137, 74);
+  transition: all .5s ease;
 }
-.container button{
+
+.container button {
   background-color: rgb(220, 137, 74);
   border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
   color: #000000;
   cursor: pointer;
   display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -302,17 +317,17 @@ ul {
   touch-action: manipulation;
   position: relative;
   left: -63px;
-    top: 394px;
-    margin-top: -12px;
+  top: 394px;
+  margin-top: -12px;
 }
 
 .container button:hover {
-  box-shadow: yellow 0 -25px 18px -14px inset,white 0 1px 2px;
+  box-shadow: yellow 0 -25px 18px -14px inset, white 0 1px 2px;
   transform: scale(1.05) rotate(-1deg);
 }
 
 
-.info p{
+.info p {
   color: #ffffff;
   font-size: medium;
   font-weight: bold;
@@ -320,7 +335,7 @@ ul {
 }
 
 
-.savebtn{
+.savebtn {
   margin-left: 199px;
   /* margin-bottom: -300px; */
 }
@@ -361,43 +376,48 @@ p {
   top: -7px;
 }
 
-.image{
+.image {
   width: 320px;
-    height: 200px;
-    margin-bottom: 10px;
-    position: relative;
-    right: -1px;
-    top: -7px;
+  height: 200px;
+  margin-bottom: 10px;
+  position: relative;
+  right: -1px;
+  top: -7px;
 }
 
-.image2{
+.image2 {
   width: 320px;
-    height: 200px;
-    margin-bottom: 10px;
-    position: relative;
-    right: -11px;
-    top: -7px;
+  height: 200px;
+  margin-bottom: 10px;
+  position: relative;
+  right: -11px;
+  top: -7px;
 }
 
-.container li:hover{
-  box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
-  
+
+.container li:hover {
+  transform: translate3D(0, -1px, 0) scale(1.3);
+  box-shadow: 8px 28px 50px rgba(39, 44, 49, .07), 1px 6px 12px rgba(39, 44, 49, .04);
+  transition: all .4s ease;
+  /* zoom in */
 }
 
-.description p{
+
+
+.description p {
   max-width: 260px;
   word-wrap: break-word;
   color: white;
 }
 
-.logout button{
+.logout button {
   background-color: rgb(220, 137, 74);
   border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
   color: #000000;
   cursor: pointer;
   display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -409,12 +429,12 @@ p {
   touch-action: manipulation;
   position: relative;
   left: 1119px;
-    top: -50px;
-    margin-top: -61px;
+  top: -50px;
+  margin-top: -61px;
 }
 
 .logout button:hover {
-  box-shadow: yellow 0 -25px 18px -14px inset,white 0 1px 2px;
+  box-shadow: yellow 0 -25px 18px -14px inset, white 0 1px 2px;
   transform: scale(1.05) rotate(-1deg);
 }
 
@@ -424,9 +444,9 @@ button {
   margin-left: 30%;
   margin-top: 15px;
   border-radius: 30px;
-  color:rgb(0, 0, 0) ;
+  color: rgb(0, 0, 0);
   background-color: rgb(220, 137, 74);
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
 }
 
 button:hover {
@@ -434,7 +454,7 @@ button:hover {
   transform: scale(1.05);
 }
 
-.update{
+.update {
   margin: 227px;
 }
 
@@ -453,16 +473,17 @@ button:hover {
   right: -70px;
 }
 
-.create-recipe2{
+.create-recipe2 {
   margin: 101px;
 }
 
-.create-recipe h2{
+.create-recipe h2 {
   position: relative;
   right: -16px;
-  top:10px;
+  top: 10px;
   font-size: 75px;
 }
+
 .container h2 {
   position: relative;
   right: -42px;
